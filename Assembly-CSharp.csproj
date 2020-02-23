@@ -54,6 +54,11 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\CameraScript.cs" />
+     <Compile Include="Assets\Scripts\CellChanger.cs" />
+     <Compile Include="Assets\Scripts\InputManager.cs" />
+     <Compile Include="Assets\Scripts\RadialMenu.cs" />
+     <Compile Include="Assets\Scripts\RadialSection.cs" />
+     <Compile Include="Assets\Scripts\Teleporter.cs" />
      <Compile Include="Assets\VRTK\Examples\ExampleResources\SceneResources\[001 - Interactions] ControllerEvents\Scripts\VRTKExample_ControllerEventsDelegateListeners.cs" />
      <Compile Include="Assets\VRTK\Examples\ExampleResources\SceneResources\[002 - Pointers] StraightPointer\Scripts\VRTKExample_PointerObjectHighlighterActivator.cs" />
      <Compile Include="Assets\VRTK\Examples\ExampleResources\SceneResources\[003 - Pointers] BezierPointer\Scripts\VRTKExample_BezierPointerChanger.cs" />
@@ -453,19 +458,19 @@
      <None Include="Assets\TiltBrush\Assets\Brushes\Shared\Shaders\DiffuseDoubleSided.shader" />
      <None Include="Assets\TiltBrush\Assets\Brushes\Shared\Shaders\StandardSingleSided.shader" />
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>/Users/admin/Documents/Code/Unity/VR_Tutorial/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>/Users/admin/Documents/Code/Projects/Unity/VR_Tutorial/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>/Users/admin/Documents/Code/Unity/VR_Tutorial/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ <HintPath>/Users/admin/Documents/Code/Projects/Unity/VR_Tutorial/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.CollabProxy.Editor">
- <HintPath>/Users/admin/Documents/Code/Unity/VR_Tutorial/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ <HintPath>/Users/admin/Documents/Code/Projects/Unity/VR_Tutorial/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>/Users/admin/Documents/Code/Unity/VR_Tutorial/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>/Users/admin/Documents/Code/Projects/Unity/VR_Tutorial/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.DataPrivacy">
- <HintPath>/Users/admin/Documents/Code/Unity/VR_Tutorial/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+ <HintPath>/Users/admin/Documents/Code/Projects/Unity/VR_Tutorial/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -672,22 +677,22 @@
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
  <Reference Include="Newtonsoft.Json">
- <HintPath>/Users/admin/Documents/Code/Unity/VR_Tutorial/Assets/ThirdParty/Json-NET-for-Unity/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
+ <HintPath>/Users/admin/Documents/Code/Projects/Unity/VR_Tutorial/Assets/ThirdParty/Json-NET-for-Unity/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="CSCore">
- <HintPath>/Users/admin/Documents/Code/Unity/VR_Tutorial/Assets/ThirdParty/CSCore/CSCore.dll</HintPath>
+ <HintPath>/Users/admin/Documents/Code/Projects/Unity/VR_Tutorial/Assets/ThirdParty/CSCore/CSCore.dll</HintPath>
  </Reference>
  <Reference Include="Valve.Newtonsoft.Json">
- <HintPath>/Users/admin/Documents/Code/Unity/VR_Tutorial/Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
+ <HintPath>/Users/admin/Documents/Code/Projects/Unity/VR_Tutorial/Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.Tracker">
- <HintPath>/Users/admin/Documents/Code/Unity/VR_Tutorial/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+ <HintPath>/Users/admin/Documents/Code/Projects/Unity/VR_Tutorial/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.Editor">
- <HintPath>/Users/admin/Documents/Code/Unity/VR_Tutorial/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+ <HintPath>/Users/admin/Documents/Code/Projects/Unity/VR_Tutorial/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.StandardEvents">
- <HintPath>/Users/admin/Documents/Code/Unity/VR_Tutorial/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+ <HintPath>/Users/admin/Documents/Code/Projects/Unity/VR_Tutorial/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>/Applications/Unity/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
