@@ -36,7 +36,7 @@ public class Teleporter : MonoBehaviour
     	}
 
     	Transform cameraRig = SteamVR_Render.Top().origin;
-    	Vector3 hadPosition = SteamVR_Render.Top().head.position;
+    	Vector3 headPosition = SteamVR_Render.Top().head.position;
 
     	Vector3 groundPosition = new Vector3(headPosition.x, cameraRig.position.y, headPosition.z);
     	Vector3 translateVector = m_Pointer.transform.position - groundPosition;
@@ -48,7 +48,7 @@ public class Teleporter : MonoBehaviour
     	m_IsTeleporting = true;
     	SteamVR_Fade.Start(Color.black, m_FadeTime, true);
 
-    	yield return new WaitFoSeconds(m_FadeTime);
+    	yield return new WaitForSeconds(m_FadeTime);
     	cameraRig.position += translation;
 
     	SteamVR_Fade.Start(Color.clear, m_FadeTime, true);
