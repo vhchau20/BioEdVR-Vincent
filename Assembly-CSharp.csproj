@@ -1043,6 +1043,8 @@
   <ItemGroup>
     <ProjectReference Include="TiltBrushToolkitEditor.csproj">
       <Project>{A2473444-32D2-FD1F-C39B-9D3D30A7A6DA}</Project>      <Name>TiltBrushToolkitEditor</Name>    </ProjectReference>
+    <ProjectReference Include="SteamVR_Actions.csproj">
+      <Project>{524ECD41-42AA-8E87-88F3-6810D4E809A8}</Project>      <Name>SteamVR_Actions</Name>    </ProjectReference>
     <ProjectReference Include="TiltBrushToolkitThirdPartyEditor.csproj">
       <Project>{4DC67982-ED2E-5341-2531-7FB59085D955}</Project>      <Name>TiltBrushToolkitThirdPartyEditor</Name>    </ProjectReference>
     <ProjectReference Include="TiltBrushToolkitThirdParty.csproj">
@@ -1057,8 +1059,6 @@
       <Project>{0D8E7139-1F03-252E-275E-D1ACD9956AE9}</Project>      <Name>SteamVR</Name>    </ProjectReference>
     <ProjectReference Include="SteamVR_Windows_EditorHelper.csproj">
       <Project>{E4F2D846-8AE9-D571-0F56-4EBC57914DC1}</Project>      <Name>SteamVR_Windows_EditorHelper</Name>    </ProjectReference>
-    <ProjectReference Include="SteamVR_Actions.csproj">
-      <Project>{524ECD41-42AA-8E87-88F3-6810D4E809A8}</Project>      <Name>SteamVR_Actions</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
