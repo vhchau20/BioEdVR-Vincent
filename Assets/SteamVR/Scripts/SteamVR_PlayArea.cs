@@ -18,6 +18,7 @@ namespace Valve.VR
         public float wireframeHeight = 2.0f;
         public bool drawWireframeWhenSelectedOnly = false;
         public bool drawInGame = true;
+        public bool drawInGame = false;
 
         public enum Size
         {
