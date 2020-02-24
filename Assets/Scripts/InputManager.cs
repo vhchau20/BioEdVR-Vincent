@@ -15,30 +15,26 @@ public class InputManager : MonoBehaviour
     public RadialMenu radialMenu = null;
 
     private void Awake() {
-    	touch.onChange += Touch;
-    	press.onStateUp += PressRelease;
+        touch.onChange += Touch;
+        press.onStateUp += PressRelease;
     	touchPosition.onAxis += Position;
     }
 
     private void OnDestroy() {
-	    touch.onChange -= Touch;
-    	press.onStateUp -= PressRelease;
+        touch.onChange -= Touch;
+        press.onStateUp -= PressRelease;
     	touchPosition.onAxis -= Position;	
     }
 
     private void Position(SteamVR_Action_Vector2 fromAction, SteamVR_Input_Sources fromSource, Vector2 axis, Vector2 delta) {
-    	// print(axis);
     	radialMenu.SetTouchPosition(axis);
     }
 
     private void Touch(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource, bool newState) {
-    	// print(newState);
     	radialMenu.Show(newState);
-        print("hi");
     }
 
     private void PressRelease(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource) {
-    	// print("Released");
     	radialMenu.ActivateHighlightedSection();
     }
 

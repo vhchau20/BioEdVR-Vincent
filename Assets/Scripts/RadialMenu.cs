@@ -33,8 +33,8 @@ public class RadialMenu : MonoBehaviour
     	};
 
     	foreach(RadialSection section in radialSections) {
-    		section.iconRenderer.sprite = section.icon;
-    	}
+            section.iconRenderer.sprite = section.icon;
+        }
     }
 
     private void Start() {
