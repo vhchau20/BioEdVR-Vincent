@@ -4,15 +4,22 @@ using UnityEngine;
 
 public class CellChanger : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public Material pink;
+    public Material grey;
+
+    public void setPink()
     {
-        
+        SetMaterial(pink);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void setGrey()
     {
-        
+        SetMaterial(grey);
+    }
+
+    private void SetMaterial(Material mat)
+    {
+        MeshRenderer renderer = GetComponent<MeshRenderer>();
+        renderer.material = mat;
     }
 }

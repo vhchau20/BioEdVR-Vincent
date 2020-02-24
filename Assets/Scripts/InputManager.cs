@@ -34,6 +34,7 @@ public class InputManager : MonoBehaviour
     private void Touch(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource, bool newState) {
     	// print(newState);
     	radialMenu.Show(newState);
+        print("hi");
     }
 
     private void PressRelease(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource) {
