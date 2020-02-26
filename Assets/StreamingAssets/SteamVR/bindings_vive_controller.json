@@ -206,6 +206,15 @@
                "inputs" : {},
                "mode" : "none",
                "path" : "/user/hand/right/input/trackpad"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/default/in/teleport"
+                  }
+               },
+               "mode" : "trackpad",
+               "path" : "/user/hand/right/input/trackpad"
             }
          ]
       },
@@ -252,7 +261,7 @@
    },
    "category" : "steamvr_input",
    "controller_type" : "vive_controller",
-   "description" : "",
+   "description" : "Left Controller = Radial Menu\nRight Controller = Teleport",
    "name" : "My VR_Tutorial [Testing] configuration for Vive Controller",
    "options" : {},
    "simulated_actions" : []
