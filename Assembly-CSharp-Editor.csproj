@@ -92,6 +92,12 @@
     <Reference Include="Unity.Analytics.DataPrivacy">
       <HintPath>D:/BioEdVR-Vincent/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+      <HintPath>D:/BioEdVR-Vincent/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline">
+      <HintPath>D:/BioEdVR-Vincent/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity2018LTS/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
     </Reference>
@@ -742,6 +748,18 @@
     <ProjectReference Include="SteamVR_Windows_EditorHelper.csproj">
       <Project>{91CE53D7-E6F5-2BB1-D030-6A6BF4BEA63B}</Project>
       <Name>SteamVR_Windows_EditorHelper</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Recorder.Editor.csproj">
+      <Project>{F63784AC-0572-1A30-CEE5-4037FE78FCFA}</Project>
+      <Name>Unity.Recorder.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Recorder.csproj">
+      <Project>{BB770FC0-9841-695D-C656-46D5580873AA}</Project>
+      <Name>Unity.Recorder</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Recorder.Samples.csproj">
+      <Project>{68A6F1F1-D972-8ECB-EAF9-752B535E50F3}</Project>
+      <Name>Unity.Recorder.Samples</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

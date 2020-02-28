@@ -4,17 +4,32 @@ using UnityEngine;
 
 public class CellChanger : MonoBehaviour
 {
-    public Material pink;
-    public Material grey;
+    public Material translucent;
+    public Material original;
+    private bool isActive = true;
 
-    public void setPink()
+
+    public void setTranslucent()
     {
-        SetMaterial(pink);
+        SetMaterial(translucent);
     }
 
-    public void setGrey()
+    public void setOriginal()
     {
-        SetMaterial(grey);
+        SetMaterial(original);
+    }
+
+    public void toggleActive()
+    {
+        if (isActive == true)
+        {
+            this.gameObject.SetActive(false);
+            isActive = false;
+        } else
+        {
+            this.gameObject.SetActive(true);
+            isActive = true;
+        }
     }
 
     private void SetMaterial(Material mat)
