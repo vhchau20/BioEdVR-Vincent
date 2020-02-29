@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{5588DC0E-4D4E-8337-52C3-CA96506BB0EF}</ProjectGuid>
+    <ProjectGuid>{33E5EA0A-FE14-1F10-A8FF-C33EB9BA6616}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -77,26 +77,26 @@
     <Compile Include="Assets\VRTK\Source\Editor\VRTK_SDKSetupEditor.cs" />
     <Compile Include="Assets\VRTK\Source\Editor\VRTK_SupportInfoWindow.cs" />
     <Compile Include="Assets\VRTK\Source\Editor\VRTK_UpdatePrompt.cs" />
+    <Reference Include="Unity.Timeline.Editor">
+      <HintPath>D:/BioEdVR/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/BioEdVR-Vincent/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>D:/BioEdVR/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>D:/BioEdVR-Vincent/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>D:/BioEdVR-Vincent/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/BioEdVR-Vincent/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>D:/BioEdVR-Vincent/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline.Editor">
-      <HintPath>D:/BioEdVR-Vincent/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>D:/BioEdVR/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>D:/BioEdVR-Vincent/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>D:/BioEdVR/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.CollabProxy.Editor">
+      <HintPath>D:/BioEdVR/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>D:/BioEdVR/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.DataPrivacy">
+      <HintPath>D:/BioEdVR/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity2018LTS/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -330,28 +330,28 @@
       <HintPath>C:/Program Files/Unity2018LTS/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="Valve.Newtonsoft.Json">
-      <HintPath>D:/BioEdVR-Vincent/Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
+      <HintPath>D:/BioEdVR/Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="CSCore">
-      <HintPath>D:/BioEdVR-Vincent/Assets/ThirdParty/CSCore/CSCore.dll</HintPath>
+      <HintPath>D:/BioEdVR/Assets/ThirdParty/CSCore/CSCore.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-      <HintPath>D:/BioEdVR-Vincent/Assets/ThirdParty/Json-NET-for-Unity/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
+      <HintPath>D:/BioEdVR/Assets/ThirdParty/Json-NET-for-Unity/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Advertisements">
-      <HintPath>D:/BioEdVR-Vincent/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
+      <HintPath>D:/BioEdVR/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>D:/BioEdVR-Vincent/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>D:/BioEdVR/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>D:/BioEdVR-Vincent/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>D:/BioEdVR/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>D:/BioEdVR-Vincent/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>D:/BioEdVR/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Purchasing">
-      <HintPath>D:/BioEdVR-Vincent/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
+      <HintPath>D:/BioEdVR/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity2018LTS/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -710,56 +710,56 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{D88196A8-DD81-34DB-9C1F-BF0884043CB0}</Project>
+      <Project>{47A99F09-E902-3D6C-895A-5A8D409307FE}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
     <ProjectReference Include="TiltBrushToolkitEditor.csproj">
-      <Project>{A84591A8-F2A5-38D6-68E9-3BEA84249F8C}</Project>
+      <Project>{3821FE18-BF43-5EDB-C548-5F614E9EE37F}</Project>
       <Name>TiltBrushToolkitEditor</Name>
     </ProjectReference>
     <ProjectReference Include="SteamVR_Actions.csproj">
-      <Project>{B3896798-D906-E8AB-8302-D96AE5845A4E}</Project>
+      <Project>{18640C3E-D1D5-5D08-BA48-EFA433C541A7}</Project>
       <Name>SteamVR_Actions</Name>
     </ProjectReference>
-    <ProjectReference Include="TiltBrushToolkitThirdPartyEditor.csproj">
-      <Project>{6FEFB68B-14CC-8CC3-D429-6F6BC3DBB908}</Project>
-      <Name>TiltBrushToolkitThirdPartyEditor</Name>
-    </ProjectReference>
-    <ProjectReference Include="TiltBrushToolkitThirdParty.csproj">
-      <Project>{514204D9-80FF-2AE3-55AF-07771C069185}</Project>
-      <Name>TiltBrushToolkitThirdParty</Name>
-    </ProjectReference>
-    <ProjectReference Include="TiltBrushToolkitRuntime.csproj">
-      <Project>{0AB7CFE1-A961-8025-EBAC-99A7BCCFCB7C}</Project>
-      <Name>TiltBrushToolkitRuntime</Name>
-    </ProjectReference>
-    <ProjectReference Include="SteamVR_Input_Editor.csproj">
-      <Project>{AC665AA2-D6A9-3E10-27FF-60D9516B5D64}</Project>
-      <Name>SteamVR_Input_Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="SteamVR_Editor.csproj">
-      <Project>{2F74D676-F107-16EB-7650-D90FB3FFE797}</Project>
-      <Name>SteamVR_Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="SteamVR.csproj">
-      <Project>{BB056821-50A5-1207-1F59-178C3E78582D}</Project>
-      <Name>SteamVR</Name>
-    </ProjectReference>
-    <ProjectReference Include="SteamVR_Windows_EditorHelper.csproj">
-      <Project>{91CE53D7-E6F5-2BB1-D030-6A6BF4BEA63B}</Project>
-      <Name>SteamVR_Windows_EditorHelper</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.Recorder.Editor.csproj">
-      <Project>{F63784AC-0572-1A30-CEE5-4037FE78FCFA}</Project>
+      <Project>{B42175D6-7BB3-E366-6872-471ACDA73C81}</Project>
       <Name>Unity.Recorder.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Recorder.csproj">
-      <Project>{BB770FC0-9841-695D-C656-46D5580873AA}</Project>
+      <Project>{DC75A0EA-924B-6AD3-ED63-C58DEBB913E5}</Project>
       <Name>Unity.Recorder</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Recorder.Samples.csproj">
-      <Project>{68A6F1F1-D972-8ECB-EAF9-752B535E50F3}</Project>
+      <Project>{2B0855A3-3CDC-181E-2801-52B13CA8975D}</Project>
       <Name>Unity.Recorder.Samples</Name>
+    </ProjectReference>
+    <ProjectReference Include="TiltBrushToolkitThirdPartyEditor.csproj">
+      <Project>{03DC865F-AB6D-9FA7-F51F-68C427497A89}</Project>
+      <Name>TiltBrushToolkitThirdPartyEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="TiltBrushToolkitThirdParty.csproj">
+      <Project>{9A5025B6-EC72-F3B5-FB01-DF5AA46474F4}</Project>
+      <Name>TiltBrushToolkitThirdParty</Name>
+    </ProjectReference>
+    <ProjectReference Include="TiltBrushToolkitRuntime.csproj">
+      <Project>{E8AC5D78-FF05-9B97-47D7-E2BBA04C2A41}</Project>
+      <Name>TiltBrushToolkitRuntime</Name>
+    </ProjectReference>
+    <ProjectReference Include="SteamVR_Input_Editor.csproj">
+      <Project>{A916CE55-779F-D416-4475-CE81A314C8C9}</Project>
+      <Name>SteamVR_Input_Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="SteamVR_Editor.csproj">
+      <Project>{BAF33F42-CC5F-8CB9-A013-43F12E215A3D}</Project>
+      <Name>SteamVR_Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="SteamVR.csproj">
+      <Project>{29F01EFD-09A5-EA8E-4F03-7EB935075352}</Project>
+      <Name>SteamVR</Name>
+    </ProjectReference>
+    <ProjectReference Include="SteamVR_Windows_EditorHelper.csproj">
+      <Project>{53A1A658-BCF6-4A19-E2B8-AFD11254546D}</Project>
+      <Name>SteamVR_Windows_EditorHelper</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

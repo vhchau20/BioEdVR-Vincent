@@ -6,13 +6,34 @@ public class CellChanger : MonoBehaviour
 {
     public Material translucent;
     public Material original;
-    private bool isActive = true;
-    private bool shellActive = true;
-    private bool shown = true;
+
+    private Renderer[] cellObjects;
+    private Material[] cellMaterials;
+    private bool originalMat = true;
+
 
     public void Awake() {
-        MeshRenderer renderer = GetComponent<MeshRenderer>();
-        original = renderer.material;
+        //MeshRenderer renderer = GetComponent<MeshRenderer>();
+        //original = renderer.material;
+        cellObjects = GetComponentsInChildren<Renderer>();
+        cellMaterials = GetComponentsInChildren<Material>();
+
+    }
+
+    public void toggleCellMaterials()
+    {
+        foreach (Renderer r in cellObjects)
+        {
+            if(r.gameObject != this.gameObject)
+            {
+                if (originalMat)
+                    r.material = translucent;
+                //else
+                    //r.material = original;
+            }
+        }
+        
+        originalMat = !originalMat;
     }
 
     // Set object's material to translucent
@@ -27,47 +48,32 @@ public class CellChanger : MonoBehaviour
         SetMaterial(original);
     }
 
-    // Hides/Shows the game object
-    // Use for highlighting
-    public void toggleActive()
+    // Toggles transparent <-> originalMaterial
+    public void toggleMaterial()
     {
-        if (isActive == true)
+        if (originalMat == true)
         {
-            //this.gameObject.SetActive(false);
             setTranslucent();
-            isActive = false;
         } else
         {
-            //this.gameObject.SetActive(true);
             setOriginal();
-            isActive = true;
         }
+    }
+
+    // Shows/Hides the gameobject
+    public void ToggleHideShow()
+    {
+        this.gameObject.SetActive(!this.gameObject.activeInHierarchy);
     }
 
     public void Show()
     {
-        if (shown == true)
-        {
-            this.gameObject.SetActive(false);
-            shown = false;
-        } else
-        {
-            this.gameObject.SetActive(true);
-            shown = true;
-        }
+        this.gameObject.SetActive(true);
     }
 
-    public void toggleShell()
+    public void Hide()
     {
-        if (shellActive == true)
-        {
-            setTranslucent();
-            shown = false;
-        } else
-        {
-            setOriginal();
-            shown = true;
-        }
+        this.gameObject.SetActive(false);
     }
 
     // Sets the material to some material
