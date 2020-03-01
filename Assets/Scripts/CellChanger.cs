@@ -16,20 +16,42 @@ public class CellChanger : MonoBehaviour
         //MeshRenderer renderer = GetComponent<MeshRenderer>();
         //original = renderer.material;
         cellObjects = GetComponentsInChildren<Renderer>();
-        cellMaterials = GetComponentsInChildren<Material>();
+        cellMaterials = new Material[cellObjects.Length];
+        int i = 0;
+        foreach (Renderer r in cellObjects)
+        {
+            cellMaterials[i] = r.material;
+            i++;
+        }
+        print(cellObjects.Length);
+        print(cellMaterials.Length);
 
     }
 
-    public void toggleCellMaterials()
+    // Toggle original
+    public void toggleOriginal()
+    {
+        int i = 0;
+        foreach (Renderer r in cellObjects)
+        {
+            if (r.gameObject != this.gameObject)
+            {
+                r.material = cellMaterials[i];
+            }
+            i++;
+        }
+
+        originalMat = !originalMat;
+    }
+
+    // Toggle translucent
+    public void toggleTranlucent()
     {
         foreach (Renderer r in cellObjects)
         {
             if(r.gameObject != this.gameObject)
             {
-                if (originalMat)
-                    r.material = translucent;
-                //else
-                    //r.material = original;
+                r.material = translucent;
             }
         }
         

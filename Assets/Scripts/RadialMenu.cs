@@ -13,6 +13,7 @@ public class RadialMenu : MonoBehaviour
     public RadialSection right = null;
     public RadialSection bottom = null;
     public RadialSection left = null;
+    //public RadialSection center = null;
 
     private Vector2 touchPosition = Vector2.zero;
     private List<RadialSection> radialSections = null;
@@ -31,6 +32,7 @@ public class RadialMenu : MonoBehaviour
     		right,
     		bottom,
     		left,
+            //cell
     	};
 
     	foreach(RadialSection section in radialSections) {
