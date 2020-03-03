@@ -1,3 +1,19 @@
+## To Do List (feel free to edit this)
+2. Integrate pop-ups to radial menu\
+	a. Make Popups (4 in total) and place under Left Hand of Camera Rig
+	b. Reset its positions to match the radial menu (ie Rotation X = 90, etc)
+	c. Set off INACTIVE at first
+	d. Drag CellChanger.cs Script to all 4 popups (located under Assets/Scripts)
+	e. Go to RadialMenu object in Camera Rig Left Hand
+		a. For each of the 4 buttons (Top,Bottom,Left,Right), Add all 4 popups
+		b. Set its target to each of the 4 popups, and for the one that is
+			supposed to show, set function to CellChanger:Show() and the others
+			as CellChanger:Hide()
+			For example, for Top, which is for nucleus, the list total should be
+			8 (or 9 if you include the cellPod), and nucleus should be set to
+			Show() and everything else set to Hide()
+	f. Test it out
+
 # BioEdVR
 Developed by Clair Ma, Lily Steiner, Vincent Chau\
 Advised by Alex Shin, Jeanne Vu
@@ -28,13 +44,4 @@ git push origin <BRANCH_NAME>
 ```
 Please don't push to master
 
-## To Do List (feel free to edit this)
-1. Implement highlights for 'touch' gesture on radial menu\
-	a. Do so by creating copy of "pod" surrounding cell part and attach "hoverHighlight" material
-2. Integrate pop-ups to radial menu\
-	a. So in the radialMenu gameobject, add (+) a new object under "Top", "Right","Left","Bottom" 
-	and drag the popup to the target of that object. Set the function to CellChanger:toggleActive(), 
-	which will do the rest
-3. Fix Translucent <-> Original
-4. Add sound-bytes/lofiBiologyMusic? (idk I thought this be fun to do lol)
-5. Better commenting on InputManager.cs, Pointer.cs, RadialMenu.cs, Teleporter.cs
+
