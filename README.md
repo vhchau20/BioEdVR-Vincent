@@ -1,17 +1,17 @@
 ## To Do List (feel free to edit this)
-2. Integrate pop-ups to radial menu\
-	a. Make Popups (4 in total) and place under Left Hand of Camera Rig
-	b. Reset its positions to match the radial menu (ie Rotation X = 90, etc)
-	c. Set off INACTIVE at first
-	d. Drag CellChanger.cs Script to all 4 popups (located under Assets/Scripts)
-	e. Go to RadialMenu object in Camera Rig Left Hand
-		a. For each of the 4 buttons (Top,Bottom,Left,Right), Add all 4 popups
-		b. Set its target to each of the 4 popups, and for the one that is
+1. Integrate pop-ups to radial menu\
+	a. Make Popups (4 in total) and place under Left Hand of Camera Rig\
+	b. Reset its positions to match the radial menu (ie Rotation X = 90, etc)\
+	c. Set off INACTIVE at first\
+	d. Drag CellChanger.cs Script to all 4 popups (located under Assets/Scripts)\
+	e. Go to RadialMenu object in Camera Rig Left Hand\
+		a. For each of the 4 buttons (Top,Bottom,Left,Right), Add all 4 popups\
+		b. Set its target to each of the 4 popups, and for the one that is\
 			supposed to show, set function to CellChanger:Show() and the others
-			as CellChanger:Hide()
+			as CellChanger:Hide()\
 			For example, for Top, which is for nucleus, the list total should be
 			8 (or 9 if you include the cellPod), and nucleus should be set to
-			Show() and everything else set to Hide()
+			Show() and everything else set to Hide()\
 	f. Test it out
 
 # BioEdVR
