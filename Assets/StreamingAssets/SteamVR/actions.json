@@ -65,6 +65,11 @@
       "requirement": "mandatory"
     },
     {
+      "name": "/actions/default/in/TriggerAllPartsOn",
+      "type": "boolean",
+      "requirement": "mandatory"
+    },
+    {
       "name": "/actions/default/out/Haptic",
       "type": "vibration"
     },

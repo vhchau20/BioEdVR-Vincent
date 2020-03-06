@@ -84,7 +84,6 @@ public class RadialMenu : MonoBehaviour
 
     private int GetNearestIncrement(float rotation) {
     	return Mathf.RoundToInt(rotation / degreeIncrement);
-
     }
 
     private void SetSelectedEvent(float currentRotation) {
