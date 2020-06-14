@@ -9,7 +9,7 @@ nucleus, mitochondria, spindles, and centrioles. Our hope for this project
 was to help foster a new era of biological education in which students and
 scholars can interact with various types of biological systems
 
-##Demo
+## Demo
 ![](b1.gif)
 
 
