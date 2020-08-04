@@ -1,5 +1,5 @@
 # BioEdVR
-Developed by Clair Ma, Lily Steiner, Vincent Chau\
+Developed by Vincent Chau, Clair Ma, Lily Steiner\
 Advised by Alex Shin, Jeanne Vu
 
 ## Description
